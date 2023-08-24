@@ -8,34 +8,45 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Pedro</h2>
+        <h2> Amrit Bhutani</h2>
         <div className="prompt">
-          <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
-        </div>
-      </div>
+            <p>A Sophomore at Duke University Interested in Software Development and Finance.</p>
+        
+            <a href="https://www.linkedin.com/in/amrit-singh-2105541ab/" target="_blank" rel="noopener noreferrer">
+                <LinkedInIcon />
+            </a>
+
+            <a href="mailto:amrit.bhutani@duke.edu" target="_blank" rel="noopener noreferrer">
+                <EmailIcon />
+            </a>
+
+            <a href="https://github.com/AmritBhutani" target="_blank" rel="noopener noreferrer">
+                <GithubIcon />
+            </a>
+    </div>
+</div>
+
       <div className="skills">
         <h1> Skills</h1>
         <ol className="list">
           <li className="item">
-            <h2> Front-End</h2>
+            <h2> Technical Skills</h2>
             <span>
-              ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
-              Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+              Data Analysis, Data Modeling, Valuation Modeling, AI Systems, API Implementations, 
+              Microsoft Excel, Microsoft Office
             </span>
           </li>
           <li className="item">
-            <h2>Back-End</h2>
+            <h2>Front-End, Back-End</h2>
             <span>
-              NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
-              MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
+              ReactJS, HTML, CSS, React Native, MaterialUI, Yarn
+            <br />
+              NodeJS, Java Spring, MS SQL
             </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Java, Python, C#, C, C++, TypeScript, Go</span>
+            <span>JavaScript, Java, Python, C#, C, C++, R</span>
           </li>
         </ol>
       </div>

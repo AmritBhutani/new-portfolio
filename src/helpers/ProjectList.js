@@ -7,33 +7,41 @@ import Proj6 from "../assets/proj6.png";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
+    name: "Research with Dr.Grant",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills: "Rstudio, Data interactions, Data modeling",
+    isResearch: true,
+    researchPaperLink: "https://drive.google.com/file/d/1M2iSJfeo8CLpcV6766Gc99K4865QAz02/view?usp=sharing"
   },
   {
-    name: "Ecommerce Website",
+    name: "UDL Computing API Integration",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    skills: "RestAPIs, C#, Curl Requests",
+    isAPISummary: true,
+    apiSummaryLink: "https://drive.google.com/file/d/1xesSDHJCZrJawwZSTUDEDIUBKomAo83O/view?usp=sharing"
   },
   {
-    name: "Spotify Clone",
+    name: "Larkin's Grocery Modernized Sales Data",
     image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "Microsoft Excel, Microsoft Office, Financial Modeling",
   },
   {
-    name: "Social Media Website",
+    name: "Research with Dr.Mazurowski",
     image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    skills: "MRIs, AI Modeling",
   },
   {
-    name: "Dashboard Visualizer",
+    name: "Project for ClassRanked",
     image: Proj5,
-    skills: "JavaScript,HTML,CSS",
+    skills: "Rstudio, Generalized Linear Models",
+    isClassRanked: true,
+    classRankedLink: "https://docs.google.com/presentation/d/1BSzJ0sjAGqaj8VaOIUrKjlhCkErc-uEa4lGBTX3pxcU/edit?usp=sharing"
   },
   {
-    name: "Mobile Game",
+    name: "Project for Samuel Dubois Cook Center",
     image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
-  },
+    skills: "Trend Analysis, Statistical Modeling",
+    isSamuelDubois: true,
+    samuelDuboisLink: "https://docs.google.com/presentation/d/1Khj4ieMwNJ1UTYSAZNLQgnUi5c484xvCalrwqaMRYMI/edit?usp=sharing"
+  }
 ];
