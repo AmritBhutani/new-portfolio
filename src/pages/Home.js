@@ -5,6 +5,8 @@ import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 
 function Home() {
+  console.log("Home component is rendering");
+
   return (
     <div className="home">
       <div className="about">
